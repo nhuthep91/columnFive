@@ -1,0 +1,43 @@
+	#icon_image{ margin-left: 20px; width: 100px; height: 100px; padding-top: 10px;
+		}
+	#search_image{ width: 30px; height: 25px; margin-left: 280px;
+		}
+	button.head_button:hover{ color: orange;
+			}
+	button.head_button{ color: black; font-family: sans-serif; font-weight: bold;  border-width: 0; background-color: white;
+		margin-top: 0; font-size: 12px; 
+		}
+	#home_button{ margin-left: 325px; 
+		}
+	#whatWeDo_button{ margin-left: 25px;
+		}
+	#clients_button{ margin-left: 25px;
+		}
+	#work_button{ margin-left: 25px;
+		}
+	#about_button{ margin-left: 25px;
+		}
+	#contact_button{ margin-left: 25px;
+		}
+	#blog_button{ margin-left: 25px;
+		}
+	#jobs_button{ margin-left: 25px;
+		}
+	#video{ margin-left: 990px;
+		}
+	#blackLine1{ width: 65px; height: 7px; margin-left: 20px;
+		}
+	#blackLine2{ width: 65px; height: 5px; margin-left: 20px;
+		}	
+	#title_wwd{ color: #E62E00; font-family: sans-serif; font-weight:  bolder; font-size: 22px; margin-left: 20px;
+		}
+	#content_wwd{ color: black; font-family: sans-serif; font-weight:  bolder; font-size: 36px; margin-left: 20px;
+		}
+	#title_ftw{ color: #E62E00; font-family: sans-serif; font-weight:  bolder; font-size: 22px; margin-left: 20px;
+		}
+	img.featured_image{ width: 270px; height: 150px; padding-left: 12px; margin-top: 12px;
+		}
+	#image1{ margin-left: 8px;
+		}	
+	#image4{ margin-left: 8px;
+		}	
