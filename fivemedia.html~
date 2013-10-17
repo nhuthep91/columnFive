@@ -68,7 +68,7 @@
 				<!-- Video play -->
 				<iframe id="video" src="//player.vimeo.com/video/75924498" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				
-				<table>
+				<table summary="" >
 
 				</table>					
 				
