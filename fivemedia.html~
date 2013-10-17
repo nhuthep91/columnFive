@@ -15,11 +15,11 @@
 	<tr>
 		<td>		
 			<div> 	
-				<img  id="icon_image" src="/bai1/image/icon.jpg" alt="icon">
+				<img  id="icon_image" src="/columnFive/image/icon.jpg" alt="icon">
 			</div>	
 		</td>
 		<td>
-			<div>
+			<div id="menu">
 				<button class="head_button" id="home_button">HOME</button>
 				<button class="head_button" id="whatWeDo_button">WHAT WE DO</button>
 				<button class="head_button" id="clients_button">CLIENTS</button>
@@ -32,7 +32,7 @@
 		</td>
 		<td>
 			<div>
-				<img id="search_image" src="/bai1/image/search_image.jpg" alt="search image"> 
+				<img id="search_image" src="/columnFive/image/search_image.jpg" alt="search image"> 
 			</div>			
 	   </td>
 	   
@@ -42,24 +42,24 @@
 <table>
 	<tr>
 		<td>
-			<img id="blackLine1" src="/bai1/image/black_line.jpg" alt="black line" >
+			<img id="blackLine1" src="/columnFive/image/black_line.jpg" alt="black line" >
 			<p id="title_wwd"> WHAT WE DO </p>
 			<p id="content_wwd"> We specialize in creating beautiful visuals that tell <br> stories to educate, inform and inspire</p>
 
-			<img id="blackLine2" src="/bai1/image/black_line.jpg" alt="black line" >
+			<img id="blackLine2" src="/columnFive/image/black_line.jpg" alt="black line" >
 			<p id="title_ftw"> FEATURED WORK </p>
 
 			<!--Table image Featured work -->
 			<table id="featured_table">
 				<tr>
-					<td><img class="featured_image" id="image1" src="/bai1/image/image1.jpg" alt="image 1" ></td>
-					<td><img class="featured_image" src="/bai1/image/image2.jpg" alt="image 2" ></td>
-					<td><img class="featured_image" src="/bai1/image/image3.jpg" alt="image 3" ></td>
+					<td><img class="featured_image" id="image1" src="/columnFive/image/image1.jpg" alt="image 1" ></td>
+					<td><img class="featured_image" src="/columnFive/image/image2.jpg" alt="image 2" ></td>
+					<td><img class="featured_image" src="/columnFive/image/image3.jpg" alt="image 3" ></td>
 				</tr>
 				<tr>
-					<td><img class="featured_image" id="image4" src="/bai1/image/image4.jpg" alt="image 4" ></td>
-					<td><img class="featured_image" src="/bai1/image/image5.jpg" alt="image 5" ></td>
-					<td><img class="featured_image" src="/bai1/image/image6.jpg" alt="image 6" ></td>
+					<td><img class="featured_image" id="image4" src="/columnFive/image/image4.jpg" alt="image 4" ></td>
+					<td><img class="featured_image" src="/columnFive/image/image5.jpg" alt="image 5" ></td>
+					<td><img class="featured_image" src="/columnFive/image/image6.jpg" alt="image 6" ></td>
 				</tr>
 
 			</table>
@@ -68,16 +68,58 @@
 				<!-- Video play -->
 				<iframe id="video" src="//player.vimeo.com/video/75924498" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				
-				<table summary="" >
-
+				<table>
+						<tr>
+								<td>
+										<img id="blackLine3" src="/columnFive/image/black_line.jpg" alt="black line" >
+										<p id="title_ourAp">OUR APPROACH</p>	
+										<p id="content_ourAp"> At Column <br> Five, we <br> apply our <br>unique <br>
+											 framework <br> for content <br> strategy to <br> every project <br> we <br> undertake. </p>			
+										
+										<div> <img id="readMorArrow" src="/columnFive/image/red_arrow.jpg" alt="read more arrow" >
+												<button id="readMore">Read More</button> 
+										</div>	
+										
+										<img id="blackLine3" src="/columnFive/image/black_line.jpg" alt="black line" >										
+										<p id="title_ourAp"> WE'RE HIRING</p>
+										<img id="hiring_image" src="/columnFive/image/we-are-hiring.gif" alt="we are hiring" >
+								</td>
+								<td> 
+										<div>
+										<img id="blackLine4" src="/columnFive/image/black_line.jpg" alt="black line" >								
+										<p id="highFive">HIGH <br>FIVE</p>
+										<p id="content_highFive">"Column Five has <br>an artistry and <br>whimsy that turn<br> numerals into<br> stories.Not <br>surprisingly,
+										 	<br>many of the<br> elements people<br> most love about<br> DonorsChoose.org <br>were crafted by<br> the team at <br>
+											Column Five."<br><br>I love working<br> with these guys;<br> they are always<br> so much fun."<br>
+											<br>Charles Best,<br>Founder</p>
+										<img id="highFive_image" src="/columnFive/image/HBR.jpg" alt="hbr image" >	
+										</div>						
+								</td>
+						</tr>
 				</table>					
 				
 		</td>
 	</tr>
 </table>
+		<!--Duong ke ngang footer -->
+		<img id="blackLine5" src="/columnFive/image/line_black.jpg" alt="duong ke ngang" >
 
-
-
+<table>
+		<tr>	
+				<td>
+						<div><p id="cali">CALIFORNIA</p>
+								<img id="cali_line" src="/columnFive/image/black_line.jpg" alt="black line" >
+							  <p id="cali_info">1611 Babcock Street<br>Newport Beach, CA 92663<br><br>T. 949.614.0759<br>info@columnfivemedia.com</p>						
+						</div>
+						
+				</td>	
+				<td>				
+						<div><p id="newYork">NEW YORK</p></div>
+						<img id="newYork_line" src="/columnFive/image/black_line.jpg" alt="black line" >
+						<p id="newYork_info"> 853 Broadway 4th Floor<br>New York, NY 10003</p>
+				</td>
+		</tr>
+</table>
 
 </body>
 </html>
