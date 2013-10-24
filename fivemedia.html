@@ -5,11 +5,31 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> 
 </script>
+<script>
+$(document).ready(function(){
+ 	$(window).scroll(function() {
+ 		if($(window).scrollTop != 0) {
+			$("#backToTop").fadeIn();	
+ 		} 
+ 		else {
+			$("#backToTop").fadeOut(); 		
+ 		}
+ 	});
+ 	
+ 	$('#backToTop').click(function() {
+ 		$('html, body').animate({scrollTop:0},500);
+ 			
+ 	});
+ 	
+});
+</script>
 <link rel="stylesheet" type="text/css" href="/columnFive/homePage.css">
 
 </head>
 
 <body>
+
+<div id="backToTop">Back to Top </div>
 <table>
 
 	<tr>
@@ -21,13 +41,13 @@
 		<td id="menu">
 			<div>
 				<button class="head_button" id="home_button">HOME</button>
-				<button class="head_button" id="whatWeDo_button">WHAT WE DO</button>
-				<button class="head_button" id="clients_button">CLIENTS</button>
-				<button class="head_button" id="work_button">WORK</button>
-				<button class="head_button" id="about_button">ABOUT</button>
-				<button class="head_button" id="contact_button">CONTACT</button>
-				<button class="head_button" id="blog_button">BLOG</button>
-				<button class="head_button" id="jobs_button">JOBS</button>
+				<button class="head_button" >WHAT WE DO</button>
+				<button class="head_button" >CLIENTS</button>
+				<button class="head_button" >WORK</button>
+				<button class="head_button" >ABOUT</button>
+				<button class="head_button" >CONTACT</button>
+				<button class="head_button" >BLOG</button>
+				<button class="head_button" >JOBS</button>
 			</div>
 		</td>
 		<td id="searchImage">
@@ -38,7 +58,7 @@
 	   
 	</tr>	
 </table>
-
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
 <table>
 	<tr>
 		<td>
@@ -69,7 +89,7 @@
 			
 	   </td>
 		<td>
-				<!-- Video play -->
+			<!-- Video play -->
 				<iframe id="video" src="//player.vimeo.com/video/75924498" width="500" height="281" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				
 				<table>
@@ -106,7 +126,8 @@
 		</td>
 	</tr>
 </table>
-		<!--Duong ke ngang footer -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<!--Duong ke ngang footer -->
 		<img id="blackLine5" src="/columnFive/image/line_black.jpg" alt="duong ke ngang" >
 
 <table>
@@ -127,18 +148,39 @@
 						<p id="newYork_info"> 853 Broadway 4th Floor<br>New York, NY 10003<br><br><br><br></p>
 				</td>
 				<td id="mangXaHoi">
-						<img id="xaHoi1" src="/columnFive/image/twitter.jpg" alt="twitter" >
-						<img id="xaHoi1" src="/columnFive/image/dribbble.jpg" alt="dribbble" >
-						<img id="xaHoi1" src="/columnFive/image/facebook.jpg" alt="facebook" >
-						<img id="xaHoi1" src="/columnFive/image/printerest.jpg" alt="printerest" >
-						<img id="xaHoi1" src="/columnFive/image/instagram.jpg" alt="instagram" >
-						<img id="xaHoi1" src="/columnFive/image/googlePlus.jpg" alt="google plus" >
+						<a href="https://twitter.com/columnfive" target="_bland"><img id="xaHoi1" src="/columnFive/image/twitter.jpg" alt="twitter" ></a>
+						<a href="http://dribbble.com/columnfive" target="_bland"><img id="xaHoi1" src="/columnFive/image/dribbble.jpg" alt="dribbble" ></a>
+						<a href="https://www.facebook.com/columnfivemedia" target="_bland"><img id="xaHoi1" src="/columnFive/image/facebook.jpg" alt="facebook" ></a>
+						<a href="http://www.pinterest.com/columnfive/" target="_bland"><img id="xaHoi1" src="/columnFive/image/printerest.jpg" alt="printerest" ></a>
+						<a href="http://instagram.com/columnfive" target="_bland"><img id="xaHoi1" src="/columnFive/image/instagram.jpg" alt="instagram" ></a>
+						<a href="https://plus.google.com/104999293669726379322/posts" target="_bland"><img id="xaHoi1" src="/columnFive/image/googlePlus.jpg" alt="google plus" ></a>
+						<br>
+				<!--Select work Type-->
+						<form action="" id="workForm">
+							<select name="Select Work Type" id="selectWork">
+								<option value="All Categories">All Categories</option>
+								<option value="Annual Report Design">Annual Report Design</option>
+								<option value="Branding">Branding</option>
+								<option value="Dashboard Design">Dashboard Design</option>
+								<option value="Data Visualization">Data Visualization</option>
+								<option value="Illustration">Illustration</option>
+								<option value="Inforgraphics">Inforgraphics</option>
+								<option value="Interactive Inforgraphics">Interactive Inforgraphics</option>
+								<option value="Motion Inforgraphics">Motion Inforgraphics</option>
+								<option value="Presentation Design">Presentation Design</option>
+								<option value="Video Direction & Production">Video Direction & Production</option>
+								<option value="Visual Language Design">Visual Language Design</option>
+								<option value="Web Design & Development">Web Design & Development</option>
+							</select>
+						</form>
 				</td>
 				<td>
 						<img id="right_footer_image" src="/columnFive/image/right_footer_image.jpg" alt="right footer icon" >
 				</td>
 		</tr>
 </table>
+
+<br> <br> <br> <br> <br>
 
 </body>
 </html>

@@ -1,6 +1,9 @@
-	#icon_image{ margin-left: 20px; width: 250px; height: 100px; 
+	#backToTop{ width: 50px; height: 50px; bottom:  450px; right: 0; position: fixed; cursor: pointer;  display: none;
+					text-indent: -99999px; background: url(/columnFive/image/twitter.jpg) no-repeat;
+		}	
+	#icon_image{ margin-left: 20px; width: 250px; height: 100px; cursor: pointer;
 		}
-	#search_image{ width: 30px; height: 25px; margin-left: 280px;
+	#search_image{ width: 30px; height: 25px; margin-left: 280px; cursor: pointer;
 		}
 	#searchImage{	vertical-align: top; padding-top: 30px;
 		}	
@@ -9,23 +12,9 @@
 	button.head_button:hover{ color: orange;
 			}
 	button.head_button{ color: black; font-family: sans-serif; font-weight: bold;  border-width: 0; background-color: white;
-		margin-top: 0; font-size: 12px; 
+		margin-top: 0; font-size: 12px; cursor: pointer; margin-left: 15px;
 		}
 	#home_button{ margin-left: 200px; 
-		}
-	#whatWeDo_button{ margin-left: 25px;
-		}
-	#clients_button{ margin-left: 25px;
-		}
-	#work_button{ margin-left: 25px;
-		}
-	#about_button{ margin-left: 25px;
-		}
-	#contact_button{ margin-left: 25px;
-		}
-	#blog_button{ margin-left: 25px;
-		}
-	#jobs_button{ margin-left: 25px;
 		}
 	#video{ margin-left: 110px; top: 0; margin-top: 0; padding-top: 0;
 		}
@@ -54,20 +43,20 @@
 	#readMoreArrow{ width: 30px; height: 15px; margin-left: 110px;margin-top: 35px;
 		}	
 	#readMore{ color: black; font-family: sans-serif; font-size: 16px; padding-left: 5px; 
-				background-color: white; border: 0; top: 0;
+				background-color: white; border: 0; top: 0; cursor: pointer;
 		}	
 	#readMore:hover{ color: #E60000;
 		}	
 	#viewMoreArrow{ width: 30px; height: 15px; margin-left: 20px; margin-top: 20px;
 		}	
 	#viewMore{ color: black; font-family: sans-serif; font-size: 16px; padding-left: 5px; 
-				background-color: white; border: 0; top: 0;
+				background-color: white; border: 0; top: 0; cursor: pointer;
 		}	
 	#viewMore:hover{ color: #E60000;
 		}	
-	#hiring_image{ width: 225px; height: 140px; margin-left: 110px; 
+	#hiring_image{ width: 225px; height: 140px; margin-left: 110px; cursor: pointer;
 		}
-	#handImage{ margin-left: 0; width: 180px; height: 220px; padding-top: 50px; 
+	#handImage{ margin-left: 0; width: 180px; height: 220px; padding-top: 50px; cursor: pointer;
 		}	
 	#blackLine4{ width: 65px; height: 5px; margin-left: 20px; padding-top: 20px;
 		}
@@ -91,15 +80,19 @@
 		}	
 	#newYork_info{ padding-top: 5px; padding-left: 50px;
 		}
-	#footerImage{ margin-left: 20px; width: 130px; height: 150px;
+	#footerImage{ margin-left: 20px; width: 130px; height: 150px; cursor: pointer;
 		}		
 	#mangXaHoi{  vertical-align: top; padding-top: 15px; padding-left: 80px; 
 		}	
-	#xaHoi1{ padding-left: 10px;
-		}
+	#xaHoi1{ padding-left: 10px; cursor: pointer;
+		}		
 	#right_footer_image{ padding-left: 240px;
 		}
-		
+	#selectWork{ font-size: 16px; height: 40px; color: white; background-color: #000000; cursor: pointer; border-width: 0;
+		}	
+	#workForm{ margin-left: 10px; margin-top: 8px; 
+		}		
+	
 		
 		
 		
